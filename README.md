@@ -132,6 +132,14 @@ Copy the value prefixed with "k" into your `.env` file
 TABLE_ID="<your-table-id>"
 ```
 
+## Starting the Agent
+
+The character used below has already been set up to use OpenAI as the provider. To start it up, run:
+
+```bash
+pnpm start --characters="characters/jack.character.json"
+```
+
 ## Current Flow
 
 As you'll notice in the [src/index.ts](/src/index.ts) file, a new `StorageService` instance is created within the `handleUserInput` method to manage the conversation between the agent and the user, which entails:
@@ -218,10 +226,4 @@ cp .env.example .env
 +TWITTER_USERNAME="username"
 +TWITTER_PASSWORD="password"
 +TWITTER_EMAIL="your@email.com"
-```
-
-## Install dependencies and start your agent
-
-```bash
-pnpm i && pnpm start
 ```
