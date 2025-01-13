@@ -22,7 +22,7 @@
     "@lit-protocol/lit-node-client": "^6.11.3",
     "@lit-protocol/auth-helpers": "^6.11.3",
     "ethers": "^6.13.4",
-    "langchain": "^0.0.84",
+    "langchain": "^0.2.19",
     "@ai16z/client-discord": "v0.1.4-alpha.3",
     "@ai16z/client-telegram": "v0.1.4-alpha.3",
     "@ai16z/client-twitter": "v0.1.4-alpha.3",
