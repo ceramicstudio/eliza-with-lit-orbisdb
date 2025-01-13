@@ -148,6 +148,12 @@ Finally, after obtaining the response from the agent, the same steps are taken t
 
 At the moment, the protected database flow is only integrated into conversations. However, this can be modified to query OrbisDB when responding to posts on X, making new posts, or performing other agent actions.
 
+**Note: Static Embedding Type**
+
+The flow with OrbisDB + Lit currently only supports embeddings using the OpenAI format. This means that you will run into errors trying to use other LLM providers.
+
+OrbisDB embedding support for other embedding types is expected in the near future.
+
 ## Access control
 
 At the moment, very simple access control conditions are being leveraged based on whether the wallet trying to read the data contains >=0.000001 ETH (found in the [access service](./src/services/access.service.ts)).
