@@ -74,7 +74,7 @@ e. Connect with your Metamask account and click "Get started". Keep the Orbis St
 4. Go to your `orbis-lit-langchain` terminal and copy the example env file
 
 ```sh
-cp .env.example.local .env
+cp .env.example .env
 ```
 
 5. Navigate to your browser running the OrbisDB UI and create a new context. You can call this anything you want. Once saved, click into your new context and copy the value prefixed with "k" into your `.env` file
